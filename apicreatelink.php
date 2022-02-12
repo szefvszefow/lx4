@@ -15,7 +15,7 @@ if (file_exists($filename)) {
 } else {  
 $file = fopen("$nazwa.php","a");
 echo fwrite($file, $kod);
-echo fwrite($file1, $kod1);
+
 header("Location: https://lx4.pl/done.php?url=$url&nazwa=$nazwa");
 
 }
